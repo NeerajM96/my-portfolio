@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '../src/assets/scss/config';
+
+// reset
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
+}
+a{
+  text-decoration: none;
+  color: $dark-color;
+}
+ul{
+  list-style: none;
+}
+h2,h3,h4{
+  text-transform: uppercase;
+}
+img{
+  width: 100%;
+}
