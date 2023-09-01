@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { HomeAComponent } from './home/home-a/home-a.component';
 import { HomeBComponent } from './home/home-b/home-b.component';
 import { HomeCComponent } from './home/home-c/home-c.component';
+import { FooterComponent } from './footer/footer.component';
+import { LeetcodeComponent } from './leetcode/leetcode.component';
+import { GithubComponent } from './github/github.component';
+import { RankComparatorComponent } from './leetcode/rank-comparator/rank-comparator.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { HomeCComponent } from './home/home-c/home-c.component';
     HomeComponent,
     HomeAComponent,
     HomeBComponent,
-    HomeCComponent
+    HomeCComponent,
+    FooterComponent,
+    LeetcodeComponent,
+    GithubComponent,
+    RankComparatorComponent
   ],
   imports: [
     BrowserModule,
